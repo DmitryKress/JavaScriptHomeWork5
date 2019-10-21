@@ -1,0 +1,29 @@
+{
+  "name": "lesson-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint index.js",
+    "lint-fix": "./node_modules/.bin/eslint index.js --fix",
+    "start-server": "echo \"Server starting... \"",
+    "prestart-server": "echo \"Prepare server for starting\"",
+    "poststart-server": "echo \"Server Started! \"",
+    "boot": "npm run lint && npm run lint-fix && npm run start-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dobreav/lesson-18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dobreav/lesson-18/issues"
+  },
+  "homepage": "https://github.com/Dobreav/lesson-18#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0"
+  }
+}
