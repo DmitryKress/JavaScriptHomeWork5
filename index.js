@@ -1,10 +1,8 @@
-var valueA = parseInt(prompt("Please, type value A"));
-var valueB = parseInt(prompt("Please, type value B"));
-var valueC = parseInt(prompt("Please, type value C"));
+var valueA = parseInt(prompt("Please, type the first number"));
+var valueB = parseInt(prompt("Please, type the first number"));
 
-function getDiscr() {
-  return Math.pow(valueB, 2) - 4 * valueA * valueC;
+function sum() {
+  return valueA + valueB;
 }
 
-console.log(getDiscr());
-alert(getDiscr());
+alert(sum() + ",00");

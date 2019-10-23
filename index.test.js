@@ -1,10 +1,5 @@
-var valueA = parseInt(prompt("Please, type value A"));
-var valueB = parseInt(prompt("Please, type value B"));
-var valueC = parseInt(prompt("Please, type value C"));
+const sum = require("./index");
 
-function getDiscr() {
-  return Math.pow(valueB, 2) - 4 * valueA * valueC;
-}
-
-console.log(getDiscr());
-alert(getDiscr());
+test("Adding valueA + valueB", () => {
+  expect(sum(valueA, valueB)).toBe(valueA + valueB);
+});

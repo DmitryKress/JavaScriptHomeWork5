@@ -1,29 +1,24 @@
 {
-  "name": "lesson-18",
+  "name": "javascripthomework5",
   "version": "1.0.0",
-  "description": "",
+  "description": "JavaScriptHomeWork5",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint index.js",
-    "lint-fix": "./node_modules/.bin/eslint index.js --fix",
-    "start-server": "echo \"Server starting... \"",
-    "prestart-server": "echo \"Prepare server for starting\"",
-    "poststart-server": "echo \"Server Started! \"",
-    "boot": "npm run lint && npm run lint-fix && npm run start-server"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dobreav/lesson-18.git"
+    "url": "git+https://github.com/DmitryKress/JavaScriptHomeWork5.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dobreav/lesson-18/issues"
+    "url": "https://github.com/DmitryKress/JavaScriptHomeWork5/issues"
   },
-  "homepage": "https://github.com/Dobreav/lesson-18#readme",
-  "devDependencies": {
-    "eslint": "^6.5.1",
-    "jest": "^24.9.0"
-  }
+  "homepage": "https://github.com/DmitryKress/JavaScriptHomeWork5#readme"
 }
